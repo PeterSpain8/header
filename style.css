@@ -107,3 +107,165 @@ border-bottom-left-radius:20px;
 position: relative; margin-left: 3em;
  display: inline-block;
   }
+
+
+  <!--filters+info sec--!>
+  div.filtres{
+    display: flex;
+    width: 80%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+  }
+  h2.filtres{
+    margin-right: 25px;
+    margin-top: 7px;
+    font-size: 20px;
+    display: flex;
+  }
+  .filtres{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 25px;}
+  div.icon-container1{
+    position: absolute;
+    padding: 12px 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #DBEAFF;
+    margin: -2px;
+  }
+  div.icon-container2{
+    position: absolute;
+    padding: 12px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #DBEAFF;
+    margin: -2px;
+  }
+  div.icon-container3{
+    position: absolute;
+    padding: 12px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #DBEAFF;
+    margin: -2px;
+  }
+  div.icon-container4{
+    position: absolute;
+    padding: 12px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #DBEAFF;
+    margin: -2px;
+  }
+  i.fas.fa-money-bill-wave::before{
+    color: #0065FC;
+  }
+  i.fas.fa-child::before{
+    color: #0065FC;
+  }
+  i.fas.fa-heart::before{
+    color: #0065FC;
+  }
+  i.fas.fa-dog::before{
+    color: #0065FC;
+  }
+  h3.filtre-name{
+    display: flex;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    margin-top: 0;
+    height: fit-content;
+    padding-left: 35px;
+    padding-bottom: 12px;
+    margin-left: 15px;
+    color: black;
+  }
+  .filtre-name:hover{
+    color: white;
+  }
+  .economic{
+    display: flex;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid #E4E4E4;
+    height: 40px;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+  .economic:hover{
+    background-color: #0065FC;
+  }
+  .family{
+    display: flex;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid #E4E4E4;
+    height: 40px;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+  .family:hover{
+    background-color: #0065FC;
+  }
+  .romantic{
+    display: flex;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid #E4E4E4;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-bottom: 10px;
+  }
+  .romantic:hover{
+    background-color: #0065FC;
+  }
+  .animals{
+    display: flex;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid #E4E4E4;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .animals:hover{
+    background-color: #0065FC;
+  }
+  .information{
+    display: flex;
+    margin-top: 40px;
+    width: 90%;
+    margin:auto;
+  }
+  i.fas.fa-info{
+    color: #0065FC;
+    padding: 4px 7px;
+    font-size: 11px;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: 2px solid #F2F2F2;
+  }
+  .info{
+    font-weight: 400;
+    margin-top: 4px;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
